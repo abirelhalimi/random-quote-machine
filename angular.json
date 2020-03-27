@@ -26,7 +26,7 @@
             "styles": [
               "src/styles.css",
               "./node_modules/font-awesome/css/font-awesome.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -120,8 +120,17 @@
               "devServerTarget": "random-quote-machine:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/random-quote-machine",
+            "netlifyToken": "3b8a49f7ec9e18740b10693f759a148c9f9096cbfe9bc063a83ace530dfad168",
+            "siteId": "b27460f3-aafc-49b2-8d42-31403895d1ce"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "random-quote-machine"
 }
