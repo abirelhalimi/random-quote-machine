@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+.main-div {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(130deg, #282828 70%, #00C896 60%);
+  padding-top: 20vh;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: #00C896;
+  font-family: Gabriola;
+  position: absolute;
+  font-size: 2rem;
+  bottom: 10px;
+  padding-left: 40vw;
+}
+
+a {
+  text-decoration: none;
+  color: #00C896;
+}
