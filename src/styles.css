@@ -1,22 +1,43 @@
-.main-div {
+/*.main-div {*/
+/*  height: 100vh;*/
+/*  width: 100vw;*/
+/*  background: linear-gradient(130deg, #282828 70%, #00C896 60%);*/
+/*  padding-top: 20vh;*/
+/*  text-align: center;*/
+/*}*/
+
+/*footer {*/
+/*  text-align: center;*/
+/*  color: #00C896;*/
+/*  font-family: Gabriola;*/
+/*  position: absolute;*/
+/*  font-size: 2rem;*/
+/*  bottom: 10px;*/
+/*  padding-left: 40vw;*/
+/*}*/
+
+/*a {*/
+/*  text-decoration: none;*/
+/*  color: #00C896;*/
+/*}*/
+
+.body {
+  background-color: #282828;
+  color: #282828;
+  font-family: 'Gabriola', sans-serif;
+  font-weight:400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  width: 100vw;
-  background: linear-gradient(130deg, #282828 70%, #00C896 60%);
-  padding-top: 20vh;
-  text-align: center;
+
 }
 
-footer {
-  text-align: center;
-  color: #00C896;
-  font-family: Gabriola;
-  position: absolute;
-  font-size: 2rem;
-  bottom: 10px;
-  padding-left: 40vw;
-}
-
-a {
-  text-decoration: none;
-  color: #00C896;
+@media (max-width: 500px) {
+    .body {
+      font-weight: 100;
+      height: 100%;
+      width: 100%;
+      font-size: 0.7rem;
+    }
 }

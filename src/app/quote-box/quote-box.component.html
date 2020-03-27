@@ -1,18 +1,20 @@
 
-<div>
-  <div class="quote-div" *ngIf="quote">
+<div class="wrapper div">
+  <div id="quote-div" *ngIf="quote">
     <div class="text">
       <p>{{quote.content}}</p>
       <p>~ {{quote.author}}</p>
     </div>
-    <div class="btn-group">
-      <a href="https://twitter.com/intent/tweet?text={{quote.content}} ~ {{quote.author}}" target="_blank" id="tweet">
-        <i style="font-size:24px" class="fa fa-twitter" aria-hidden="true" ></i>
+    <div class="buttons">
+      <a class="button" href="https://twitter.com/intent/tweet?text={{quote.content}} ~ {{quote.author}}" target="_blank" id="tweet" title="Tweet this quote">
+        <i class="fa fa-twitter i" aria-hidden="true" ></i>
       </a>
-      <button type="button" (click)="getRandomQuote()" id="new-quote">
-        <i style="font-size:24px" class="fa" >&#xf021;</i>
-      </button>
+
+      <a class="button" (click)="getRandomQuote()" id="new-quote" title="New quote">
+        <i class="fa i" aria-hidden="true" >&#xf021;</i>
+      </a>
     </div>
   </div>
+  <div class="footer">by <a class="a" href="https://github.com/abirelhalimi/" target="_blank">Abir El Halimi</a> </div>
 </div>
 
