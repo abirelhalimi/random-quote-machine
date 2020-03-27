@@ -1,0 +1,18 @@
+
+<div>
+  <div class="quote-div" *ngIf="quote">
+    <div class="text">
+      <p>{{quote.content}}</p>
+      <p>~ {{quote.author}}</p>
+    </div>
+    <div class="btn-group">
+      <a href="https://twitter.com/intent/tweet?text={{quote.content}} ~ {{quote.author}}" target="_blank" id="tweet">
+        <i style="font-size:24px" class="fa fa-twitter" aria-hidden="true" ></i>
+      </a>
+      <button type="button" (click)="getRandomQuote()" id="new-quote">
+        <i style="font-size:24px" class="fa" >&#xf021;</i>
+      </button>
+    </div>
+  </div>
+</div>
+

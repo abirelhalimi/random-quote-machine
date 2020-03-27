@@ -1,0 +1,67 @@
+.main-div {
+  height: 100vh;
+  width: 100vw;
+  background-color: #282828;
+  padding-top: 20vh;
+}
+
+.quote-div {
+  background-color: #F2ECFF;
+  color: #282828;
+  max-width: 80vw;
+  margin: auto;
+  padding: 2rem;
+  box-shadow: 2px 2px black;
+  border-radius: 2rem;
+  border: 2px black;
+}
+
+.text{
+  font-family: Gabriola;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#new-quote {
+  background-color: #00C896;
+  border: none;
+  color: #F2ECFF;
+  font-size: 2rem;
+  margin: auto auto auto 1vw;
+  font-family: Gabriola, serif;
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#tweet {
+  background-color: #00C896;
+  border: none;
+  color: #F2ECFF;
+  font-size: 2rem;
+  margin: auto auto auto 71vw;
+  font-family: Gabriola, serif;
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+#tweet:hover {
+  color: #282828;
+}
+
+#new-quote:hover {
+  color: #282828;
+}
+footer {
+  text-align: center;
+  color: #00C896;
+  font-family: Gabriola;
+  position: absolute;
+  bottom: 10px;
+
+}
